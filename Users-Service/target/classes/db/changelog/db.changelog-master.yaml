@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: migrations
+      author: Author
+  - include:
+      file: changeset/create-users-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changeset/insert-value-users-table.sql
+      relativeToChangelogFile: true

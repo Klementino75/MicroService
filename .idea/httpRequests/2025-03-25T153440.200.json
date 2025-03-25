@@ -1,0 +1,29 @@
+{
+  "user": {
+    "id": 1,
+    "fio": "Иван Иванов",
+    "address": "г.Москва, ул.Тверская, 3-33",
+    "phone": "+7 (901) 111-1111",
+    "email": "ivan@mail.ru"
+  },
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "sum": 200,
+      "currency": "RUB",
+      "name": "Молоко",
+      "quantity": 2,
+      "cost": 100
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "sum": 150,
+      "currency": "RUB",
+      "name": "Вода",
+      "quantity": 3,
+      "cost": 50
+    }
+  ]
+}

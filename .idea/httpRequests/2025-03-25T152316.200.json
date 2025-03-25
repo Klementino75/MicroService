@@ -1,0 +1,29 @@
+{
+  "user": {
+    "id": 1,
+    "fio": "Иван Иванов",
+    "address": "г.Москва, ул.Тверская, 3-33",
+    "phone": "+7 (901) 111-1111",
+    "email": "ivan@mail.ru"
+  },
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "sum": 10,
+      "currency": "USD",
+      "name": "Milk",
+      "quantity": 1,
+      "cost": 5
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "sum": 30,
+      "currency": "USD",
+      "name": "Milk, Eggs",
+      "quantity": 3,
+      "cost": 10
+    }
+  ]
+}
