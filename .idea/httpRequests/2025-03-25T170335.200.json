@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "sum": 200,
+    "currency": "RUB",
+    "orderList": {
+      "name": "Молоко",
+      "quantity": 2,
+      "cost": 100
+    }
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "sum": 150,
+    "currency": "RUB",
+    "orderList": {
+      "name": "Вода",
+      "quantity": 3,
+      "cost": 50
+    }
+  },
+  {
+    "id": 3,
+    "userId": 2,
+    "sum": 200,
+    "currency": "RUB",
+    "orderList": {
+      "name": "Кофе",
+      "quantity": 1,
+      "cost": 200
+    }
+  }
+]

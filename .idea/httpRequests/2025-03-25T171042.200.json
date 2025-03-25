@@ -1,0 +1,20 @@
+{
+  "user": {
+    "id": 2,
+    "fio": "Пётр Петров",
+    "address": "г.Подольск, ул.Ленина, 2-22",
+    "phone": "+7 (902) 222-2222",
+    "email": "petr@mail.ru"
+  },
+  "orders": [
+    {
+      "id": 2,
+      "userId": 2,
+      "sum": 150,
+      "currency": "RUB",
+      "name": null,
+      "quantity": 0,
+      "cost": 0
+    }
+  ]
+}

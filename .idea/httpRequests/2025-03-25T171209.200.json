@@ -8,16 +8,15 @@
   },
   "orders": [
     {
-      "id": "1",
-      "amount": 1500.0,
+      "id": 1,
+      "userId": 1,
+      "sum": 200,
       "currency": "RUB",
-      "items": [
-        {
-          "name": "Товар 1",
-          "quantity": 2,
-          "price": 750.0
-        }
-      ]
+      "orderList": {
+        "name": "Молоко",
+        "quantity": 2,
+        "cost": 100
+      }
     }
   ]
 }

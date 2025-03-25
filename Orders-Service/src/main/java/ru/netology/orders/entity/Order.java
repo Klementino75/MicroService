@@ -1,9 +1,6 @@
 package ru.netology.orders.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -26,15 +23,11 @@ public class Order {
     @Column(name = "currency", length = 3, nullable = false)
     private String currency;
 
-    @Column(name = "name", length = 100, nullable = false)
-    private String name;
-    @Column(name = "quantity", nullable = false)
-    private int quantity;
-    @Column(name = "cost", nullable = false)
-    private int cost;
+    @Embedded
+    private OrderList orderList;
 
     @Override
     public String toString() {
-        return "'%d', '%d', '%s', '%s', '%d', '%d'".formatted(userId, sum, currency, name, quantity, cost);
+        return "'%d', '%d', '%s', %s".formatted(userId, sum, currency, orderList);
     }
 }
