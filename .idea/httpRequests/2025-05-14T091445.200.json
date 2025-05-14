@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "sum": 200,
+    "currency": "RUB",
+    "orderList": {
+      "name": "Молоко",
+      "quantity": 2,
+      "cost": 100
+    }
+  }
+]

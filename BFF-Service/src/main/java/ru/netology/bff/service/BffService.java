@@ -1,8 +1,8 @@
 package ru.netology.bff.service;
 
-import ru.netology.bff.entity.Order;
+import ru.netology.users.entity.User;
+import ru.netology.orders.entity.Order;
 import ru.netology.bff.entity.UserData;
-import ru.netology.bff.entity.User;
 
 import lombok.RequiredArgsConstructor;
 

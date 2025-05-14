@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import ru.netology.orders.entity.Order;
+import ru.netology.users.entity.User;
+
 import java.util.List;
 
 @Data
